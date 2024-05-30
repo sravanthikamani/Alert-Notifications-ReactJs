@@ -1,0 +1,25 @@
+/* Write your CSS here */
+
+.notification-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  padding-bottom: 40px;
+  border-style: solid;
+  border-color: #e5e5e5;
+  border-width: 1px;
+  border-radius: 8px;
+  height: 120px;
+  margin-bottom: 26px;
+  width: 60%;
+  flex-shrink: 2;
+}
+
+.close-icon {
+  min-width: 20px;
+  min-height: 20px;
+  margin-left: 20px;
+  padding: 0px;
+}
